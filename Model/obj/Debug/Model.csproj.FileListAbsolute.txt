@@ -1,0 +1,9 @@
+E:\Works\WEB\PrivateSpace\Model\bin\Debug\Model.dll
+E:\Works\WEB\PrivateSpace\Model\bin\Debug\Model.pdb
+E:\Works\WEB\PrivateSpace\Model\bin\Debug\EntityFramework.dll
+E:\Works\WEB\PrivateSpace\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Works\WEB\PrivateSpace\Model\bin\Debug\EntityFramework.xml
+E:\Works\WEB\PrivateSpace\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Works\WEB\PrivateSpace\Model\obj\Debug\Model.dll
+E:\Works\WEB\PrivateSpace\Model\obj\Debug\Model.pdb
+E:\Works\WEB\PrivateSpace\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

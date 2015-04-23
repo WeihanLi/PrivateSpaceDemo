@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+@section headPart{
+    <script type="text/javascript">
+        function DelMood(id) {
+            if (confirm('确定删除？')) {
+                $.post("/Mood/Delete/" + id, null, function (data) {
+                    if (data.Status == 0 && data.Msg == "success") {
+                        //alert('Delete Success');
+                        window.location.reload();
+                    }
+                    else {
+                        alert('发生异常' + data.Msg);
+                    }
+                });
+            }
+        }
+        function DelDiary(id) {
+            if (confirm('确定删除？')) {
+                $.post("/Diary/Delete/" + id, null, function (data) {
+                    if (data.Status == 0 && data.Msg == "success") {
+                        //alert('Delete Success');
+                        window.location.reload();
+                    }
+                    else {
+                        alert('发生异常' + data.Msg);
+                    }
+                });
+            }
+        }
+    </script>
+}
+<h2>Manage Home</h2>
+<div id="divMood">
+    @{ Html.RenderAction("MoodPartial");}
+</div>
+<div id="divDiary">
+    @{ Html.RenderAction("DiaryPartial");}
+</div>

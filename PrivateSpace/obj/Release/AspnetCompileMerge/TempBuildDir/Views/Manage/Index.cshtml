@@ -1,0 +1,13 @@
+﻿@using Model;
+@model List<Mood>
+@{
+    ViewBag.Title = "Index";
+}
+@foreach (Mood m in Model)
+{
+    <section>
+        <h2>m.moodContent </h2>
+        <h4>m.moodTime </h4>
+    </section>
+}     
+这是管理首页

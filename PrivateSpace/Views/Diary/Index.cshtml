@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Diary - Index";
+}
+@section headPart{
+    <style type="text/css">
+        #divProductList {
+            background-color: #CCC;
+        }
+
+        #ProductList {
+            list-style: none;
+        }
+
+            #ProductList li, .item {
+                float: left;
+                width: 200px;
+                line-height: 100px;
+            }
+
+        #divPageBar, footer {
+            clear: both;
+        }
+
+            #divPageBar a {
+                padding: 2px 4px;
+                border: 1px solid #000;
+                background-color: #0094ff;
+                margin: 4px;
+                line-height: 32px;
+                color: #fff;
+                cursor: pointer;
+            }
+
+                #divPageBar a:hover {
+                    background-color: #044fb9;
+                }
+    </style>
+    <script src="~/Scripts/PageBar.js" type="text/javascript"></script>
+    <script src="~/Scripts/OperateDiary.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            LoadData(1);
+        });
+    </script>
+}
+
+<div>
+    <h3><a href="@(Url.Action("Create"))">Create New</a> </h3>
+</div>
+
+<div id="divProductList">
+    <table id="tabContent" class="table"></table>
+
+    <div id="divPageBar"> </div>
+</div>

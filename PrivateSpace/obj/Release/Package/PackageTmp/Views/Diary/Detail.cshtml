@@ -1,0 +1,34 @@
+﻿@model DiaryViewModel
+
+@{
+    ViewBag.Title = "Diary-Detail";
+}
+<div>
+    <h4>Diary-Detail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DiaryTitle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DiaryTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiaryTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DiaryTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiaryContent)
+        </dt>
+        <dd>
+            @Html.Raw(Model.DiaryContent)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

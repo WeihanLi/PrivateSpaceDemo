@@ -1,0 +1,345 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <title>PrivateSpace API</title>
+</head>
+<body style="padding:4em">
+       <!--
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">PrivateSpace</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#top">Home</a></li>
+                        <li><a href="#login">Login</a></li>
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-expanded="false">
+                                Manage <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#mood">Mood</a></li>
+                                <li><a href="#diary">Diary</a></li>
+                                <li><a href="#chat">Chat</a></li>
+                            </ul>
+                        </li>
+                        ...
+                    </ul>
+                </div>
+            </div>
+        </nav>-->
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="/">Private Space</a>
+                        </div>
+                        <div id="navbar" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#top">Home</a></li>
+                                <li><a href="#login">Login</a></li>
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">Manage<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#mood">Mood</a></li>
+                                        <li><a href="#diary">Diary</a></li>
+                                        <li><a href="#chat">Chat</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            <div class="container">
+                <header><p>所有的请求都必须是POST请求哦~~~ </p></header>
+                <section>
+                    <a name="login"></a>
+                    <div class="container">
+                        <dl>
+                            <dt>login</dt>
+                            <dd>
+                                <table class="table">
+                                    <tr>
+                                        <td>请求网址</td>
+                                        <td> http://ftp216703.host500.zhujiwu.cn/API/Member/Login </td>
+                                    </tr>
+                                    <tr>
+                                        <td>请求需要的参数</td>
+                                        <td>
+                                            <dl>
+                                                <dt>Email</dt>
+                                                <dd>用户登录邮箱</dd>
+
+                                                <dt>Password</dt>
+                                                <dd>用户密码</dd>
+                                            </dl>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </dd>
+                        </dl>
+                    </div>
+                </section>
+
+                <section>
+                    <a name="mood"></a>
+                    <div class="container">
+                            <dl>
+                                <dt>加载心情列表</dt>
+                                <dd>
+                                    <table class="table">
+                                        <tr>
+                                            <td>请求网址</td>
+                                            <td> http://ftp216703.host500.zhujiwu.cn/API/Manage/LoadMoodList/ </td>
+                                        </tr>
+                                        <tr>
+                                            <td>请求参数</td>
+                                            <td>
+                                                <dl>
+                                                    <dt>Username</dt>
+                                                    <dd>用户名</dd>
+
+                                                    <dt>UserId</dt>
+                                                    <dd>用户编号</dd>
+
+                                                    <dt>Mail</dt>
+                                                    <dd>用户邮箱</dd>
+
+                                                    <dt>pageIndex</dt>
+                                                    <dd>页码索引（默认加载第一页）</dd>
+
+                                                    <dt>pageSize</dt>
+                                                    <dd>页容量（默认页容量为10）</dd>
+                                                </dl>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </dd>
+
+                                <dt>添加心情</dt>
+                                <dd>
+                                    <table class="table">
+                                        <tr>
+                                            <td>请求网址</td>
+                                            <td> http://ftp216703.host500.zhujiwu.cn/API/Manage/AddMood/ </td>
+                                        </tr>
+                                        <tr>
+                                            <td>请求参数</td>
+                                            <td>
+                                                <dl>
+
+                                                    <dt>Mail</dt>
+                                                    <dd>用户邮箱</dd>
+
+                                                    <dt>MoodTitle</dt>
+                                                    <dd>心情内容</dd>
+                                                </dl>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </dd>
+
+                                <dt>删除心情</dt>
+                                <dd>
+                                    <table class="table">
+                                        <tr>
+                                            <td>请求网址</td>
+                                            <td> http://ftp216703.host500.zhujiwu.cn/API/Manage/DeleteMood/ </td>
+                                        </tr>
+                                        <tr>
+                                            <td>请求参数</td>
+                                            <td>
+                                                <dl>
+                                                    <dt>Mail</dt>
+                                                    <dd>用户邮箱</dd>
+
+                                                    <dt>MoodId</dt>
+                                                    <dd>心情id值</dd>
+                                                </dl>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <a name="diary"></a>
+                            <dl>
+                                <dt>加载日记列表</dt>
+                                <dd>
+                                    <table class="table">
+                                        <tr>
+                                            <td>请求网址</td>
+                                            <td> http://ftp216703.host500.zhujiwu.cn/API/Manage/LoadDiaryList/ </td>
+                                        </tr>
+                                        <tr>
+                                            <td>请求参数</td>
+                                            <td>
+                                                <dl>
+
+                                                    <dt>Mail</dt>
+                                                    <dd>用户邮箱</dd>
+
+                                                    <dt>pageIndex</dt>
+                                                    <dd>页码索引（默认加载第一页）</dd>
+
+                                                    <dt>pageSize</dt>
+                                                    <dd>页容量（默认页容量为10）</dd>
+                                                </dl>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </dd>
+
+                                <dt>添加日记</dt>
+                                <dd>
+                                    <table class="table">
+                                        <tr>
+                                            <td>请求网址</td>
+                                            <td> http://ftp216703.host500.zhujiwu.cn/API/Manage/AddDiary/ </td>
+                                        </tr>
+                                        <tr>
+                                            <td>请求参数</td>
+                                            <td>
+                                                <dl>
+
+                                                    <dt>Mail</dt>
+                                                    <dd>用户邮箱</dd>
+
+                                                    <dt>DiaryTitle</dt>
+                                                    <dd>日记标题</dd>
+
+                                                    <dt>DiaryContent</dt>
+                                                    <dd>日记正文内容</dd>
+                                                </dl>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </dd>
+
+                                <dt>删除日记</dt>
+                                <dd>
+                                    <table class="table">
+                                        <tr>
+                                            <td>请求网址</td>
+                                            <td> http://ftp216703.host500.zhujiwu.cn/API/Manage/DeleteDiary/ </td>
+                                        </tr>
+                                        <tr>
+                                            <td>请求参数</td>
+                                            <td>
+                                                <dl>
+                                                    <dt>Mail</dt>
+                                                    <dd>用户邮箱</dd>
+
+                                                    <dt>MoodId</dt>
+                                                    <dd>心情id值</dd>
+                                                </dl>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </dd>
+
+                                <dt>更新日记</dt>
+                                <dd>
+                                    <table class="table">
+                                        <tr>
+                                            <td>请求网址</td>
+                                            <td> http://ftp216703.host500.zhujiwu.cn/API/Manage/LoadMood/UpdateDiary/ </td>
+                                        </tr>
+                                        <tr>
+                                            <td>请求参数</td>
+                                            <td>
+                                                <dl>
+
+                                                    <dt>Mail</dt>
+                                                    <dd>用户邮箱</dd>
+
+                                                    <dt>DiaryTitle</dt>
+                                                    <dd>日记标题</dd>
+
+                                                    <dt>DiaryContent</dt>
+                                                    <dd>日记正文内容</dd>
+
+                                                    <dt>DiaryId</dt>
+                                                    <dd>日记id值</dd>
+                                                </dl>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <a name="chat"></a>
+                            <dl>
+                                <dt>Chat</dt>
+                                <dd>
+                                    <table class="table">
+                                        <tr>
+                                            <td>请求网址</td>
+                                            <td> http://ftp216703.host500.zhujiwu.cn/API/Chat/ </td>
+                                        </tr>
+                                        <tr>
+                                            <td>请求需要的参数</td>
+                                            <td>
+                                                <dl>
+                                                    <dt>Email</dt>
+                                                    <dd>用户邮箱</dd>
+
+                                                    <dt>Msg</dt>
+                                                    <dd>用户消息</dd>
+                                                </dl>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </dd>
+                            </dl>
+                        </div>
+                </section>
+
+                <aside>
+                    服务器响应数据格式
+                    <dl>
+                        <dt>Status</dt>
+                        <dd>状态，0表示成功，1表示失败，2表示没有权限</dd>
+
+                        <dt>Msg</dt>
+                        <dd>消息，请求成功则返回success，发生异常则返回异常消息</dd>
+
+                        <dt>Data</dt>
+                        <dd>返回的数据，如加载数据列表时，返回的数据</dd>
+
+                        <dt>BackupUrl</dt>
+                        <dd>所请求的Url</dd>
+                    </dl>
+                </aside>
+            </div>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    </body>
+    </html>

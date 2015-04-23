@@ -1,0 +1,21 @@
+﻿@if (Session["Member"] != null)
+{
+    using (Html.BeginForm("LogOut", "Member", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("Hello " + (Session["Member"] as Model.User).Username,"Index", "Manage")
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">LogOut</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Regist", "Register", "Member", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Login", "Login", "Member", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

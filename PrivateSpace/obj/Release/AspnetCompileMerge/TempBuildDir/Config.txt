@@ -1,0 +1,1 @@
+﻿Server=tcp:zbzocn06p5.database.chinacloudapi.cn,1433;Database=Private;User ID=mike@zbzocn06p5;Password=Admin888;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;

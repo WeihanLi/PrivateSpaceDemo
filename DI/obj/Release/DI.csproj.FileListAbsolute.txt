@@ -1,0 +1,7 @@
+E:\Works\WEB\PrivateSpace\DI\bin\Release\DI.dll
+E:\Works\WEB\PrivateSpace\DI\bin\Release\DI.pdb
+E:\Works\WEB\PrivateSpace\DI\bin\Release\Common.Logging.dll
+E:\Works\WEB\PrivateSpace\DI\bin\Release\Spring.Core.dll
+E:\Works\WEB\PrivateSpace\DI\obj\Release\DI.dll
+E:\Works\WEB\PrivateSpace\DI\obj\Release\DI.pdb
+E:\Works\WEB\PrivateSpace\DI\obj\Release\DI.csprojResolveAssemblyReference.cache

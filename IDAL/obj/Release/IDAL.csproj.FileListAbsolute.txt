@@ -1,0 +1,9 @@
+E:\Works\WEB\PrivateSpace\IDAL\bin\Release\IDAL.dll
+E:\Works\WEB\PrivateSpace\IDAL\bin\Release\IDAL.pdb
+E:\Works\WEB\PrivateSpace\IDAL\bin\Release\EntityFramework.dll
+E:\Works\WEB\PrivateSpace\IDAL\bin\Release\Model.dll
+E:\Works\WEB\PrivateSpace\IDAL\bin\Release\Model.pdb
+E:\Works\WEB\PrivateSpace\IDAL\bin\Release\EntityFramework.xml
+E:\Works\WEB\PrivateSpace\IDAL\obj\Release\IDAL.csprojResolveAssemblyReference.cache
+E:\Works\WEB\PrivateSpace\IDAL\obj\Release\IDAL.dll
+E:\Works\WEB\PrivateSpace\IDAL\obj\Release\IDAL.pdb

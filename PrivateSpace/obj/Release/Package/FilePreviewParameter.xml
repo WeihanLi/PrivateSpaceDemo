@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="private" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Works\\WEB\\PrivateSpace\\PrivateSpace\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\Works\\WEB\\PrivateSpace\\PrivateSpace\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="private/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\Works\\WEB\\PrivateSpace\\PrivateSpace\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="PrivateEntity-Web.config Connection String" description="" value="Server=tcp:zbzocn06p5.database.chinacloudapi.cn,1433;Database=Private;User ID=mike@zbzocn06p5;Password=Admin888;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\Works\\WEB\\PrivateSpace\\PrivateSpace\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PrivateEntity']/@connectionString" />
+  </parameter>
+</parameters>

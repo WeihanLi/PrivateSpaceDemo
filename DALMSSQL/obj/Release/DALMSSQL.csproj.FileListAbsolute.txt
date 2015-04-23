@@ -1,0 +1,15 @@
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\DALMSSQL.dll
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\DALMSSQL.pdb
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\Common.dll
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\EntityFramework.dll
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\IDAL.dll
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\Model.dll
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\Common.pdb
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\IDAL.pdb
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\Model.pdb
+E:\Works\WEB\PrivateSpace\DALMSSQL\bin\Release\EntityFramework.xml
+E:\Works\WEB\PrivateSpace\PrivateSpace\bin\DALMSSQL.dll
+E:\Works\WEB\PrivateSpace\PrivateSpace\bin\DALMSSQL.pdb
+E:\Works\WEB\PrivateSpace\DALMSSQL\obj\Release\DALMSSQL.csprojResolveAssemblyReference.cache
+E:\Works\WEB\PrivateSpace\DALMSSQL\obj\Release\DALMSSQL.dll
+E:\Works\WEB\PrivateSpace\DALMSSQL\obj\Release\DALMSSQL.pdb

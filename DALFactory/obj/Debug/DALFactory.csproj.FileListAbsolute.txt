@@ -1,0 +1,17 @@
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\DALFactory.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\DALFactory.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\Common.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\DALMSSQL.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\EntityFramework.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\IDAL.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\Model.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\Common.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\DALMSSQL.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\IDAL.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\Model.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\EntityFramework.xml
+E:\Works\WEB\PrivateSpace\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
+E:\Works\WEB\PrivateSpace\DALFactory\obj\Debug\DALFactory.dll
+E:\Works\WEB\PrivateSpace\DALFactory\obj\Debug\DALFactory.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\log4net.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Debug\log4net.xml

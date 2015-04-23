@@ -1,0 +1,29 @@
+﻿@model List<MoodViewModel>
+<div>
+    <h3>Mood</h3>
+    @if(Model.Count>0)
+    { 
+        <table>
+            @foreach (MoodViewModel m in Model)
+            {
+                <tr>
+                    <td colspan="4" rowspan="2" align="left">
+                            @m.MoodContent
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td align="right">@m.MoodTime.ToString("yyyy-MM-dd HH:mm") <a href="#" onclick="DelMood(@(m.MoodId))">删除</a></td>
+                </tr>
+            }
+            @if (Model.Count==10)
+            {
+                <tr><td> <a class="btn-link btn-primary" href="@(Url.Action("Index","Mood"))">More</a> </td></tr>
+            }
+        </table>
+    }
+    else
+    {
+        <h5><a href="@(Url.Action("Index","Mood"))">Create New</a> </h5>
+    }
+</div>

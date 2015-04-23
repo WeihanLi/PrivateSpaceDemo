@@ -1,0 +1,7 @@
+E:\Works\WEB\PrivateSpace\Common\bin\Release\Common.dll
+E:\Works\WEB\PrivateSpace\Common\bin\Release\Common.pdb
+E:\Works\WEB\PrivateSpace\Common\bin\Release\log4net.dll
+E:\Works\WEB\PrivateSpace\Common\bin\Release\log4net.xml
+E:\Works\WEB\PrivateSpace\Common\obj\Release\Common.dll
+E:\Works\WEB\PrivateSpace\Common\obj\Release\Common.pdb
+E:\Works\WEB\PrivateSpace\Common\obj\Release\Common.csprojResolveAssemblyReference.cache

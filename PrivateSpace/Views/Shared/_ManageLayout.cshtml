@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Manage - @ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <link rel="shortcut icon" href="~/favicon.png" />
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?f69bcd73a7b4fe234c772142dec1a197";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    @RenderSection("headPart", required: false)
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"> </span>
+                    <span class="icon-bar"> </span>
+                    <span class="icon-bar"> </span>
+                </button>
+                @Html.ActionLink("PrivateSpace", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("ManageHome", "Index", "Manage")</li>
+                    <li>@Html.ActionLink("Mood", "Index", "Mood")</li>
+                    <li>@Html.ActionLink("Diary", "Index", "Diary")</li>
+                    <li>@Html.ActionLink("ChatOpenly", "Chat", "Manage")</li>
+                </ul>
+                @using (Html.BeginForm("LogOut", "Member", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                {
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        @Html.ActionLink("Hello " + (Session["Member"] as Model.User).Username, "Index", "Manage")
+                    </li>
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()">LogOut</a></li>
+                </ul>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer style="text-align:left">
+            <p>&copy; @DateTime.Now.Year  Copyright - PrivateSpace</p>
+        </footer>
+    </div>
+</body>
+</html>

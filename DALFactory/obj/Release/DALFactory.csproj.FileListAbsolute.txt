@@ -1,0 +1,15 @@
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\DALFactory.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\DALFactory.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\Common.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\DALMSSQL.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\EntityFramework.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\IDAL.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\Model.dll
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\Common.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\DALMSSQL.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\IDAL.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\Model.pdb
+E:\Works\WEB\PrivateSpace\DALFactory\bin\Release\EntityFramework.xml
+E:\Works\WEB\PrivateSpace\DALFactory\obj\Release\DALFactory.csprojResolveAssemblyReference.cache
+E:\Works\WEB\PrivateSpace\DALFactory\obj\Release\DALFactory.dll
+E:\Works\WEB\PrivateSpace\DALFactory\obj\Release\DALFactory.pdb

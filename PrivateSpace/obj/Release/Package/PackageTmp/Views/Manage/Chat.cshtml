@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Chat";
+}
+@section headPart{
+    <link type="text/css" href="~/Content/ChattingStyle.css" rel="stylesheet" />
+    <script src="~/Scripts/Chatting.js"></script>    
+}
+<h2>Chat</h2>
+
+@using (@Html.BeginForm("GetReply","Chat",FormMethod.Get,new { onsubmit = "javascript:return SendChatting()" }))
+{
+    <div id="main_wraper" class="main_wrap xiaoice_shadow">
+        <div id="lite_header">
+            <div class="lite_headerinfo">
+                Chat - Openly
+            </div>
+        </div>
+        <div id="lite_body">
+            <div id="lite_content">
+                <div class="lite_conversation_item">
+                    <div class="lite_conv_innerwrap_left">
+                        <div class="lite_conv_left">
+                            Chat with me whatever you want to say.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="lite_content_hidden" style="display: none;"></div>
+        </div>
+
+        <div id="lite_footer">
+            <div id="lite_cmd_input">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="lite_cmd_cell_left">
+                                <div class="input_wrap">
+                                    <input id="lite_cmd_inputbox" type="text" />
+                                </div>
+                            </td>
+                            <td class="lite_cmd_cell_right">
+                                <div id="lite_cmd_inputbutton" onclick="SendMsg()">发送</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="xb_lite_cmd_none"></div>
+        </div>
+    </div>
+}

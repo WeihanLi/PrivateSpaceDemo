@@ -1,0 +1,15 @@
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\IBLL.dll
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\IBLL.pdb
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\Common.dll
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\EntityFramework.dll
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\IDAL.dll
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\Model.dll
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\log4net.dll
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\Common.pdb
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\IDAL.pdb
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\Model.pdb
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\EntityFramework.xml
+E:\Works\WEB\PrivateSpace\IBLL\bin\Release\log4net.xml
+E:\Works\WEB\PrivateSpace\IBLL\obj\Release\IBLL.csprojResolveAssemblyReference.cache
+E:\Works\WEB\PrivateSpace\IBLL\obj\Release\IBLL.dll
+E:\Works\WEB\PrivateSpace\IBLL\obj\Release\IBLL.pdb

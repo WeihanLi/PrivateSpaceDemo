@@ -1,0 +1,132 @@
+﻿body {
+    background-color:#ccc;
+}
+* {
+    margin:0;padding:0;
+}
+_ {
+ margin:0;padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+#lite_header {
+    padding-top: 0.6em;
+    overflow: hidden;
+    width: 100%;
+    min-width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background: #333;
+}
+#lite_body {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 300px;
+    height: 420px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #e5e5ea;
+}
+#lite_content {
+    padding: 6px 0;
+    overflow: auto;
+    height: 385px;
+}
+.main_wrap {
+    width: 380px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-family: "Microsoft YaHei","Segoe UI",Verdana,Helvetica,sans-serif;
+}
+.lite_conversation_item {
+    padding: 8px 10px 0 10px;
+    width: auto;
+    margin: 0;
+}
+.lite_conv_innerwrap_right {
+    padding: 0 5px 0 5px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 16px 20px;
+}
+.lite_conv_right {
+    max-width: 260px;
+    min-width: 100px;
+    margin-right: 4px;
+    margin-left: auto;
+    background-color: #91c400;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    text-align: right;
+}
+.lite_conv_left, .lite_conv_right {
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+-khtml-border-radius: 15px;
+border-radius: 15px;
+font-size: 13px;
+}
+.lite_conv_left {
+max-width: 260px;
+min-width: 100px;
+margin-left: 4px;
+margin-right: auto;
+padding: 5px 10px 5px 10px;
+background-color: #fff;
+color: #111;
+text-align: left;
+}
+.lite_conv_innerwrap_left {
+    padding: 0 5px 0 5px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 16px 20px;
+}
+#lite_cmd_input {
+    height: 38px;
+    background-color: #fff;
+    margin: 0;
+}
+#lite_cmd_input table {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#lite_cmd_inputbox {
+    width: 100%;
+    height: 100%;
+    line-height: 22px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: "Microsoft YaHei","Segoe UI",Verdana,Helvetica,sans-serif;
+}
+.lite_cmd_cell_right {
+    width: 65px;
+}
+#lite_cmd_inputbutton {
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    font-size: 16px;
+    background-color: #00acec;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}

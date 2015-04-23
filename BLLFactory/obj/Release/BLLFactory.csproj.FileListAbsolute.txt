@@ -1,0 +1,17 @@
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\BLLFactory.dll
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\BLLFactory.pdb
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\BLL.dll
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\Common.dll
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\IBLL.dll
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\IDAL.dll
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\Model.dll
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\EntityFramework.dll
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\BLL.pdb
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\Common.pdb
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\IBLL.pdb
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\IDAL.pdb
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\Model.pdb
+E:\Works\WEB\PrivateSpace\BLLFactory\bin\Release\EntityFramework.xml
+E:\Works\WEB\PrivateSpace\BLLFactory\obj\Release\BLLFactory.csprojResolveAssemblyReference.cache
+E:\Works\WEB\PrivateSpace\BLLFactory\obj\Release\BLLFactory.dll
+E:\Works\WEB\PrivateSpace\BLLFactory\obj\Release\BLLFactory.pdb

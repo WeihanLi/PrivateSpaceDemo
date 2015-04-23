@@ -1,0 +1,21 @@
+﻿@if (Session["User"] != null)
+{
+    using (Html.BeginForm("LogOut", "Member", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("Hello " + (Session["Member"] as Model.User).Username,"Index", "Manage",htmlAttributes: new { href = "#" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">退出</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("注册", "Register", "Member", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("登录", "Login", "Member", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}
